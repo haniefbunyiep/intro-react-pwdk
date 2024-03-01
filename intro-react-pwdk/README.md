@@ -1,8 +1,12 @@
-# React + Vite
+My Front End React Introduction learning material from Purwadhika School
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Semantic Commit Messages :
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+feat: (new feature for the user, not a new feature for build script)
+fix: (bug fix for the user, not a fix to a build script)
+docs: (changes to the documentation)
+style: (formatting, missing semi colons, etc; no production code change)
+refactor: (refactoring production code, eg. renaming a variable)
+test: (adding missing tests, refactoring tests; no - production code change)
+chore: (updating grunt tasks etc; no production code change)
+init/initial: (initiate file or folder for the first time)
