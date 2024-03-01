@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-function Button() {
+function Button(props) {
   const StyledButton = styled.button`
-    background-color: blue;
+    background-color: grey;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -13,7 +13,7 @@ function Button() {
 
   return (
     <>
-      <StyledButton>Test</StyledButton>
+      <StyledButton>{props.txt}</StyledButton>
     </>
   );
 }
